@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.shopping-section ul,
+.cart ul {
+  list-style-type: none;
+}
+
+.shopping-section button,
+.cart button {
+  margin: 0 5px;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.shopping-section {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
